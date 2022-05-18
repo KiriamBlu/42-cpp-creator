@@ -10,13 +10,13 @@ It also generates a very simple makefile.
 Then, CPP Creator sets the proper name replacing "Template" with the name you provided.
 *This script provides an starting point for your classes. If another template better suits your needs you can always modify the templates from the templates directory
 
-  git clone git@github.com:KiriamBlu/42-cpp-creator.git
+    git clone git@github.com:KiriamBlu/42-cpp-creator.git
   
-  cd 42-cpp-template-creator
+    cd 42-cpp-template-creator
   
-  cd cpptempcreate
+    cd cpptempcreate
 
-  ./cppcreator.sh $Name_of_class
+    ./cppcreator.sh $Name_of_class
 
 # How to make it work.
 
