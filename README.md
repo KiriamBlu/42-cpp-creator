@@ -1,4 +1,4 @@
-#42-CPP-CREATOR                                                                
+# 42-CPP-CREATOR                                                                
 
 This is a script focuses on helping the 42 students in their cpp proyects. This script was developed between me (jsanfeli in 42 intra) and @RobertoRobrodri
 on github (robrodri in 42 intra).
