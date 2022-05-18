@@ -1,11 +1,10 @@
-                                                                                                                                                 
-  _|  _|      _|_|                                                                                                    _|                          
-  _|  _|    _|    _|                _|_|_|  _|_|_|    _|_|_|                  _|_|_|  _|  _|_|    _|_|      _|_|_|  _|_|_|_|    _|_|    _|  _|_|  
-  _|_|_|_|      _|    _|_|_|_|_|  _|        _|    _|  _|    _|  _|_|_|_|_|  _|        _|_|      _|_|_|_|  _|    _|    _|      _|    _|  _|_|      
-      _|      _|                  _|        _|    _|  _|    _|              _|        _|        _|        _|    _|    _|      _|    _|  _|        
-      _|    _|_|_|_|                _|_|_|  _|_|_|    _|_|_|                  _|_|_|  _|          _|_|_|    _|_|_|      _|_|    _|_|    _|        
-                                           _|        _|                                                                                          
-                                           _|        _|                                                                                          
+  d 888  ,8,"88e                                                                       d8                    
+ d8 888   "  888D      e88'888 888 88e  888 88e       e88'888 888,8,  ,e e,   ,"Y88b  d88    e88 88e  888,8, 
+d88 888e     88P  888 d888  '8 888 888b 888 888b 888 d888  '8 888 "  d88 88b "8" 888 d88888 d888 888b 888 "  
+""" 888"    ,*"       Y888   , 888 888P 888 888P     Y888   , 888    888   , ,ee 888  888   Y888 888P 888    
+    888   8888888      "88,e8' 888 88"  888 88"       "88,e8' 888     "YeeP" "88 888  888    "88 88"  888    
+                               888      888                                                                  
+                               888      888                                                                  
 
 This is a script focuses on helping the 42 students in their cpp proyects. This script was developed between me (jsanfeli in 42 intra) and @RobertoRobrodri
 on github (robrodri in 42 intra).
@@ -37,7 +36,7 @@ There are two ways to execute this script:
   
   Go to the root directory and edit the .bashrc file and in the last line add.
   
-  alias $Desired_Name='/Users/$USER/cpptempcreator/cppcreator.sh
+    alias $Desired_Name='/Users/$USER/cpptempcreator/cppcreator.sh
   
   Then, with the name you chooser for the cmd you can execute the script.
   
