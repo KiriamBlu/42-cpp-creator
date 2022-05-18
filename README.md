@@ -3,7 +3,7 @@
 This is a script focuses on helping the 42 students in their cpp proyects. This script was developed between me (jsanfeli in 42 intra) and @RobertoRobrodri
 on github (robrodri in 42 intra).
 
-#What it does
+# What it does
 
 CPP Creator recieves the name of the desired cpp class and then proceess to copy from the templates provided the two files required: .cpp and .hpp.
 It also generates a very simple makefile.
