@@ -12,7 +12,7 @@ Then, CPP Creator sets the proper name replacing "Template" with the name you pr
 
     git clone git@github.com:KiriamBlu/42-cpp-creator.git
   
-    cd 42-cpp-template-creator
+    cd 42-cpp-creator
   
     cd cpptempcreate
 
