@@ -27,5 +27,7 @@ Then, CPP Creator sets the proper name replacing "Template" with the name you pr
  # To use it.
  
       cppc Name_of_class
+      
+   output: Makefile, Name_of_class.cpp, Name_of_class.hpp
   
     
