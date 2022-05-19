@@ -11,6 +11,7 @@ elif [[ "$OS" == "Linux" ]]; then
         echo "alias cppc='/home/$USER/42-cpp-creator/cpptempcreator'" >> .zshrc
 fi
 
+cd ../../
+
 rm -rf $PWD                                                                                  
 
-cd ~/Desktop
