@@ -10,8 +10,6 @@ It also generates a very simple makefile.
 Then, CPP Creator sets the proper name replacing "Template" with the name you provided.
 *This script provides an starting point for your classes. If another template better suits your needs you can always modify the templates from the templates directory
 
-
-
 # How to make it work.
    
   -The recomended way is to run the install.sh to be able to use it anywhere you want:
@@ -21,6 +19,10 @@ Then, CPP Creator sets the proper name replacing "Template" with the name you pr
     cd 42-cpp-template-creator
     
     ./install.sh
+  
+  You need to specify wich type of bash you are using to the program in the install.sh in the line "~/.bashrc":
+  
+      echo "alias cppc='bash /Users/$USER/42-cpp-creator/cpptempcreator/cppcreator.sh'" >> ~/.bashrc
   
   After this you can delete the directory and files that you just cloned. After you restart your sesion the changes will be applayed.
   
