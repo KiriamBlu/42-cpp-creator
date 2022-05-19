@@ -14,14 +14,18 @@ Then, CPP Creator sets the proper name replacing "Template" with the name you pr
 
 # How to make it work.
    
-  -The recomended way is to add a alias to the scrip to be able to use it anywhere you want:
+  -The recomended way is to run the install.sh to be able to use it anywhere you want:
   
-  Go to the root directory and edit the .bashrc file and in the last line add.
+    git clone git@github.com:KiriamBlu/42-cpp-template-creator.git
+    
+    cd 42-cpp-template-creator
+    
+    ./install.sh
   
-    alias $Desired_Name='/Users/$USER/cpptempcreator/cppcreator.sh
+  After this you can delete the directory and files that you just cloned. After you restart your sesion the changes will be applayed.
   
-  Then, with the name you chooser for the cmd you can execute the script.
-  
-  #We recommend to hide the directory with a '.' before the directory name.
+ # To use it.
+ 
+      cppc Name_of_class
   
     
