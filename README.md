@@ -28,6 +28,6 @@ Then, CPP Creator sets the proper name replacing "Template" with the name you pr
  
       cppc $Name_of_class
       
-   output: Makefile, $Name_of_class.cpp, $Name_of_class.hpp
+   output: Makefile, Name_of_class.cpp, Name_of_class.hpp
   
     
