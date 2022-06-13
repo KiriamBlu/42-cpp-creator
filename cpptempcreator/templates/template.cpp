@@ -30,7 +30,7 @@ template::template( const template & var ) {
   
 }
 
-template::template~( void ) {
+template::~template( void ) {
   
   std::cout << "Destructor constructor called" << std::endl;
 
