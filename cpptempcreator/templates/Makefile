@@ -13,6 +13,9 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	$(CXX) $(CFLAGS) $(OBJS) -o $(NAME)
 
+exe: $(NAME)
+	time ./$(NAME)
+
 clean:
 	rm -f $(OBJS)
 

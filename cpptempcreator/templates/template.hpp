@@ -25,7 +25,7 @@ class	template {
 		template ( void );
 		template ( std::string str );
 		template ( const template & var );
-		template~ ( void );
+		~template ( void );
 };
 
 #endif
