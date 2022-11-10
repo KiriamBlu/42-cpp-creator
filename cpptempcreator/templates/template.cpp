@@ -32,6 +32,19 @@ template::template( const template & var ) {
 
 template::~template( void ) {
   
-  std::cout << "Destructor constructor called" << std::endl;
+  std::cout << "Destructor called" << std::endl;
 
+}
+
+template & template::operator=(const template &tmp) {
+
+  std::cout << "Operator equalizer called" << std::endl;
+
+}
+
+std::ostream &operator<<(std::ostream& os, const template &tmp) {
+
+	os << std::endl << "Operator output called" << std::endl;
+	return (os);
+  
 }

@@ -8,11 +8,13 @@ if [[ "$HOME" == "" ]]; then
         fi
 fi
 
-cp $HOME/.cpptemplatecreator/templates/template.cpp $1.cpp
-cp $HOME/.cpptemplatecreator/templates/template.hpp $1.hpp
+cp -i $HOME/.cpptemplatecreator/templates/template.cpp $1.cpp
+cp -i $HOME/.cpptemplatecreator/templates/template.hpp $1.hpp
 
 #Why do you hate my makefile??
-cp $HOME/.cpptemplatecreator/templates/Makefile .
+#Flag -i asks you if you want to override an existing file
+
+cp -i $HOME/.cpptemplatecreator/templates/Makefile .
 
 sed -i '' "s/template/$1/g" $1.cpp
 sed -i '' "s/template/$1/g" $1.hpp
