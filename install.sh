@@ -10,4 +10,4 @@ fi
 
 cp cpptempcreator/ $HOME/.cpptemplatecreator
 echo "alias cppc='bash $HOME/.cpptemplatecreator/cppcreator.sh'" >> ~/.bashrc
-#echo "alias cppc='bash /home/$USER/42-cpp-creator/cpptempcreator/cppcreator.sh'" >> ~/.zshrc
+#echo "alias cppc='bash /home/$USER/.cpptempcreator/cppcreator.sh'" >> ~/.zshrc

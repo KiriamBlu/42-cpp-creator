@@ -26,6 +26,8 @@ class	template {
 		template ( std::string str );
 		template ( const template & var );
 		~template ( void );
+		template &operator=(const template &tmp);
 };
+std::ostream &operator<<(std::ostream& os, const template &tmp);
 
 #endif
