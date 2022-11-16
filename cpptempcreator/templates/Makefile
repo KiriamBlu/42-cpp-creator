@@ -1,6 +1,6 @@
 NAME = 
 
-CXXFLAGS = -Wall -Werror -Wextra
+CXXFLAGS = -Wall -Werror -Wextra -Wshadow  -Wno-shadow
 
 SRCS = 
 
