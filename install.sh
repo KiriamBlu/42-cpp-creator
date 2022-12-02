@@ -8,6 +8,9 @@ if [[ "$HOME" == "" ]]; then
         fi
 fi
 
-cp cpptempcreator/ $HOME/.cpptemplatecreator
+cp -r cpptempcreator/ $HOME/.cpptemplatecreator
 echo "alias cppc='bash $HOME/.cpptemplatecreator/cppcreator.sh'" >> ~/.bashrc
-#echo "alias cppc='bash /home/$USER/.cpptempcreator/cppcreator.sh'" >> ~/.zshrc
+echo "alias cppc='bash $USER/.cpptemplatecreator/cppcreator.sh'" >> ~/.zshrc
+
+echo "alias cppi='bash $HOME/.cpptemplatecreator/cppicreator.sh'" >> ~/.bashrc
+echo "alias cppi='bash $USER/.cpptemplatecreator/cppicreator.sh'" >> ~/.zshrc
